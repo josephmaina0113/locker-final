@@ -1,0 +1,1078 @@
+@font-face {
+  font-family: 'Pinkend';
+  src: url('../assets/font/Pinkend.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  max-width: 1500px;
+}
+
+@media (max-width:1500px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width:1300px) {
+  html {
+    font-size:53%;
+  }
+}
+
+@media (max-width:1050px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width:900px) {
+  html {
+    font-size: 38%;
+  }
+}
+
+@media (max-width:750px) {
+  html {
+    font-size: 38%;
+  }
+  .header01 {
+    display: none !important;
+    flex: 0 !important;
+  }
+  .menuIconBox {
+    display: flex !important;
+    margin-right:5rem ;
+  }
+  .hero{
+    height: 83rem !important;
+  }
+  .heroBox{
+    height: 80rem !important;
+  }
+ .heroTxt {
+    font-size: 2rem !important;
+  }
+  .heroTxt h1 {
+    font-size: 4rem !important;
+  }
+  .heroImgB {
+    width: 40rem !important;
+    transform: translate(-50%,0%) !important;
+  }
+  .heroImgW {
+    width: 40rem !important;
+    transform: translateY(160%) !important;
+    right: -20% !important;
+  }
+  .about {
+    flex-direction: column;
+    height: 125rem !important;
+  }
+  .aboutTxt {
+    padding: 5rem 7rem !important;
+    text-align: center;
+    flex: 1 !important;
+  }
+  .about02 {
+    flex: 2.5 !important;
+  }
+  .aboutImg {
+    width: 60rem !important;
+    height: 60rem !important;
+  }
+  .aboutImg01{
+    width: 28rem  !important;
+    height: 50rem !important;
+    transform: translate(60%,20%) !important;
+  }
+  .gearTxt{
+    padding: 0rem !important;
+  }
+  .gearTxt p {
+    padding: 0 5rem !important;
+  }
+  .gearBox01 {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .console, .vr {
+    height: 40rem !important;
+    width: 60rem !important;
+    margin: 1rem 0rem !important;
+    flex: none !important;
+  }
+  .gearBox02{
+    display: flex !important;
+    align-items: center !important;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+  .pc{
+    height: 65rem !important;
+    width: 60rem !important;
+  }
+  .pcTxt {
+    width: 40rem !important;
+  }
+  .pcImg {
+    height: 35rem !important;
+    transform: translate(82%,100%) !important;
+  }
+  .build-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  .reviews {
+    height: 90rem !important;
+    flex-direction: column !important;
+  }
+  .reviews-txt {
+    padding: 2rem 8rem !important;
+    text-align: center !important;
+    flex: 0.7 !important;
+  }
+   .partners {
+    margin: 2rem 0 !important;
+    height: 6rem !important;
+    padding: 0.5 !important;
+  }
+  .partnersTxt {
+    font-size: 1.8rem !important;
+    padding: 1.5rem 0 !important;
+    flex:1 !important;
+  }
+  .partnersBox {
+    padding: 0 !important;
+    flex: 3!important;
+  }
+  .partnersItem {
+    gap: 1rem !important;
+  }
+  .partnersImg {
+    height: 3rem !important;
+    max-width: 10rem !important;
+  }
+  .accBox {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .communityBox {
+    flex-direction: column !important;
+    align-items: center !important;
+    display: flex !important;
+  }
+  .community{
+    height: 60rem !important;
+    width: 60rem !important;
+  }
+  .communityTxt{
+    width: 40rem !important;
+  }
+  .communityImg {
+    width: 30rem !important;
+    height: 60rem !important;
+    transform: translate(100%,5%) !important;
+  }
+  .faq {
+    height: 200rem !important;
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  .contactBox {
+    height:110rem !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+    flex-direction: column !important;
+  }
+  .contactForm {
+    max-width: 60rem !important;
+  }
+  .footer {
+    flex-direction: column !important;
+    padding: 2rem 0 !important;
+  }
+}
+
+body{
+  font-family: "Ancizar Sans", sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 2rem;
+  background-color:#f4f2f5 ;
+}
+
+header {
+  display: flex;
+  padding:0;
+  margin: 0 5rem 0 5rem;
+  height:10rem;
+}
+
+.header01 {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+}
+
+.xp {
+  font-family: 'Pinkend', sans-serif;
+  font-size: 2.2rem;
+  color: #b4182d;
+  flex: 1.25;
+  display: flex;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.xp.active {
+  justify-content: left;
+  margin-left: 5rem;
+}
+
+a {
+  text-decoration: none; 
+  color: inherit;
+}
+
+.menuIconBox {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  display: none;
+}
+
+.menu.active {
+  display: flex;
+}
+
+.menuIcon {
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-color:#dcdce4;
+  z-index: 2;
+  position: absolute;
+  width: 25rem;
+  right: 10%;
+  border-radius: 2rem;
+  display: none;
+}
+
+.menu li {
+  list-style: none;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.menu li:hover {
+  background-color: #b4182d;
+  color: #fff;
+  padding: 1rem 2rem;
+}
+
+.hero {
+  height: 70rem;
+  z-index: 1;
+}
+
+.heroBox {
+  height: 63rem;
+  border-radius: 5rem;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.hero01 {
+  flex: 1;
+  background-color:#b4182d;
+  z-index:-1;
+  height:100%; 
+}
+
+.hero02 {
+  flex: 1;
+  float: right;
+  background-color:#003049 ;
+  z-index:-1;
+  height: 100%;
+}
+
+.heroTxt {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  z-index: 1;
+}
+
+.heroTxt h1 {
+  font-size: 5rem;
+  color: #003049;
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  transform: translateX(6%) !important;
+}
+
+.heroTxt span {
+  color: #b4182d;
+}
+
+.heroBtn, .aboutBtn{
+  font-size: 2.2rem;
+  padding: 1.5rem 6rem;
+  background-color: #9289ff;
+  border: none;
+  border-radius: 4rem;
+  font-weight: bold;
+  transition: transform 1s ease;
+  margin-top: 2rem;
+}
+
+.heroBtn:hover,.aboutBtn:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.heroImgB {
+  width: 50rem;
+  z-index: 1;
+  position: absolute;
+  transform: translate(-30%, 30%);
+}
+
+.heroImgW {
+  width: 50rem;
+  position: absolute;
+  transform: translate(200%,50%);
+  z-index: 1;
+}
+
+.about {
+  display: flex;
+  height: 75rem;
+}
+
+.about01 {
+  flex: 1;
+}
+
+.aboutTxt {
+  padding: 12rem 4rem;
+
+}
+
+.aboutTxt h1 {
+  font-size: 5rem;
+    font-family: 'Pinkend', sans-serif;
+    line-height: 2;
+    color: #b4182d;
+}
+
+.about02 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutImg {
+  border-radius: 5rem;
+  background-color:#003049;
+  height: 60rem;
+  width: 60rem;
+}
+
+.aboutImg01 {
+  height: 60rem;
+  object-fit: cover;
+  transform: translate(20% ,0%);
+}
+
+.gearTxt {
+  text-align: center;
+  padding: 0 25rem;
+}
+
+.gearTxt h1 {
+  font-size: 5rem;
+  font-family: 'Pinkend', sans-serif;
+  line-height: 0.5;
+  color: #b4182d;
+}
+
+.gearTxt span {
+  color: #003049;
+}
+
+.gearBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.gearBox01 {
+  display: flex;
+  gap: 2rem;
+}
+
+.gearBtn , .accBtn , .communityBtn{
+  font-size: 2rem;
+  padding: 1rem 5rem;
+  border: white solid 0.2rem;
+  color: white;
+  border-radius: 4rem;
+  font-weight: bold;
+  transition: trancsform 1s ease;
+  background: none;
+  transition: transform 1s ease;
+}
+
+.gearBtn:hover, .accBtn:hover, .communityBtn:hover {
+  color: white;
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.console, .vr {
+  flex: 1;
+  border-radius: 5rem;
+  overflow: hidden;
+  position: relative;
+  height: 45rem;
+  background-color: #003049;
+  color: #fff;
+  padding: 1rem 2rem;
+  margin: 1rem 2rem;
+  font-size: 2.5rem;
+}
+
+.vr{
+  background-color: #b4182d;
+}
+
+.gearBox h1 {
+  
+  font-family: 'Pinkend', sans-serif;
+  font-size: 3,.5rem;
+}
+.gearBoxTxt {
+  position: absolute;
+  z-index: 1;
+  width: 35rem;
+}
+
+.consoleImg {
+  height: 45rem;
+  z-index: 1;
+  position: absolute;
+  transform: translate(85% ,5%);
+}
+
+.vrImg {
+  height: 45rem;
+  z-index: 1;
+  position: absolute;
+  transform: translate(35% ,20%);
+}
+
+.pc {
+  height: 45rem;
+  padding: 2rem;
+  background-color: #003049;
+  border-radius: 5rem;
+  margin: 1rem 2rem;
+  color: white;
+  font-size: 2.5rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.pcTxt {
+  width: 70rem;
+  position: absolute;
+  z-index: 1;
+}
+
+.pcImg {
+  height: 45rem;
+  z-index: 1;
+  position: absolute;
+  transform: translate(160% ,10%);
+}
+
+.reviews {
+  display: flex;
+  height: 46rem;
+  margin-top: 6rem;
+}
+
+.reviewsTxt {
+  flex: 1;
+  padding: 1rem;
+  padding-right: 5rem;
+  font-size: 2.2rem;
+}
+
+.reviewsTxt h1 {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 2;
+  font-family: 'Pinkend', sans-serif;
+  color: #b4182d;
+}
+
+.reviewsBtn {
+  background-color: #9cbabd;
+  border: none;
+  padding: 1rem 1.4rem;
+  border-radius: 3.2rem;
+  margin: 0.5rem 1rem;
+}
+.reviewsIcons {
+  width: 3rem;
+}
+.reviewsBtn:hover {
+  background-color: #003049;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.reviewsBox {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 5rem;
+}
+
+.reviewsView {
+  display: flex;
+  height: 38rem;
+  width: 65rem;
+}
+
+.reviewsItem {
+  border-radius: 5rem;
+  height: 38rem;
+  width: 40rem;
+  margin-left:2rem ;
+  margin-right: 2rem;
+  background-color: #0e494b;
+  padding:0; 
+}
+
+.b{
+  background-color: black;
+}
+
+.reviewsBoxTxt {
+  height: 38rem;
+  width: 40rem;
+  padding:3rem;
+  color: white;
+  line-height: 1.5;
+  font-size: 2.2rem;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.partners {
+  background-color: #7b7b82 ;
+  border-radius: 5rem;
+  padding: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+  height: 11.5rem;
+  display: flex;
+}
+
+.partnersTxt {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Pinkend', sans-serif;
+  flex: 1;
+  z-index: 0;
+  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.partnersBox {
+  padding: 2rem;
+  overflow: hidden;
+  z-index: 0;
+  flex: 4; 
+}
+.partnersItem {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 1.5rem;
+  animation: marquee-scroll 20s linear infinite;
+
+}
+
+.partnersImg {
+  height: 5rem;
+  max-width: 15rem;
+  transition: filter 0.3s ease;
+}
+
+.partnersItem:hover {
+  animation-play-state: paused;
+}
+
+.partnersImg:hover {
+  transform: scale(1.1);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.2);
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.accTxt{
+  text-align: center;
+}
+
+.accTxt h1 {
+  font-weight: bold;
+  font-family: 'Pinkend', sans-serif;
+  font-size: 4rem;
+  color: #b4182d;
+}
+
+.accTxt span {
+  color: #003049;
+}
+
+.accBox{
+  display: flex;
+  padding: 2rem;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.accItem {
+  border-radius: 5rem;
+  height: 40rem;
+  width: 40rem;
+  padding: 1rem 2rem;
+  background-color: #003049;
+  color: white;
+  overflow: hidden;
+  position: relative;
+}
+.accItemTxt {
+  z-index: 2;
+  position: absolute;
+}
+
+.accItemTxt h1 {
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+}
+
+.accImg01 {
+  width: 40rem;
+  position:absolute;
+  z-index: 1;
+  transform: rotate(-25deg) translate(-25%,60%);
+}
+
+.accImg02 {
+  width: 40rem;
+  position: absolute;
+  z-index: 1;
+  transform: translate(30%,10%);
+}
+
+.accImg03 {
+  width: 30rem;
+  position: absolute;
+  z-index: 1;
+  transform: translate(50%,45%);
+}
+
+.community {
+  height: 55rem;
+  padding: 5rem 2rem;
+  margin-top: 5rem;
+  background-color: black;
+  color:white ;
+  border-radius: 5rem;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.communityTxt {
+  font-size: 2.2rem;
+  width: 60rem;
+  position:absolute;
+  padding-left: 4rem;
+}
+
+.communityTxt h1 {
+  font-size: 4rem;
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  color: #b4182d;
+}
+
+
+.communityImg {
+  width: 50rem;
+  height: 70rem;
+  transform: translate(130%,-20%);
+}
+
+.faq {
+  height: 110rem;
+  display: flex;
+  margin-top: 8rem;
+}
+
+.faqTxt {
+  flex: 1;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.faqTxt h1 {
+  font-size: 5rem;
+  margin: 0;
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+}
+
+.faqImgBox {
+  background-color: #b4182d;
+  border-radius: 5rem;
+  height: 60rem;
+  margin-top: 5rem;
+  width: 58rem;
+}
+
+.faqImg {
+  width: 50rem;
+  transform: translate(10%,-5%);
+}
+
+.faqBox {
+  flex: 1;
+  padding: 2rem;
+  flex: 1;
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-top: 5rem;
+}
+
+.faqItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.faqQ {
+  width: 100%;
+  border-radius: 1rem 0rem 0rem 1rem;
+  padding: 2rem;
+  border-left: solid 1rem #b4182d;
+  border-top: solid 0.1rem black;
+  border-bottom: solid 0.1rem black;
+  border-right: none;
+  cursor: pointer;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  font-size: 1.8rem;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  font-weight: 700;
+  transition: translate 0.3s ease;
+  margin: 0;
+}
+
+.faqQ:hover:not(.active) {
+  transform: translate(0, -1rem); ;
+  transition: translate 0.3s ease;
+  
+}
+
+.faqBtn {
+  background-color: #b4182d;
+  border: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  width: 4.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.faqBtn:hover {
+  transition: background-color 0.3s ease;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+}
+
+.faqA {
+  display: none;
+  padding: 2rem;
+  font-size: 2rem;
+  line-height: 1.5;
+  border-radius: 0rem 0rem 0rem 1rem;
+  border-left: solid 1rem #b4182d;
+  border-bottom: solid 0.1rem black;
+}
+
+.contactTxt {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.contactTxt h1{
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  color: #b4182d;
+}
+
+.contactTxt span{
+  color: #003049;
+}
+
+.contactBox {
+  height: 58rem;
+  display: flex;
+  margin-top: 7rem;
+  border-radius: 5rem;
+  background-color: #b4182d;
+}
+
+.contactItem{
+  flex: 1;
+  padding: 2rem;
+  margin-left: 4rem;
+  line-height: 2.0;
+}
+
+.contactItem h1 {
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+}
+
+.contactItem span{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.contactIcons{
+  transform: translateX(-5%);
+}
+
+.contactIcon {
+  width: 10rem;
+  transition: transform 0.3s ease;
+}
+.contactIcon:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+.contactForm {
+  flex: 1;
+  padding: 2rem;
+  margin-right: 4rem;
+}
+
+.contactForm h1 {
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 2;
+   padding: 0rem 3rem;
+}
+
+.contactForm01 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem;
+  background-color:white;
+  border-radius: 5rem;
+  height: 32rem;
+  box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+  font-size: 2.2rem;
+}
+
+
+#email {
+  width: 100%;
+  border: none;
+  border-bottom: #1b1919 solid 0.2rem;
+  font-size: 2rem;
+}
+
+#email:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+#message {
+  width: 100%;
+  border: none;
+  border-bottom: #1b1919 solid 0.2rem;
+  font-size: 2rem;
+  resize: none;
+}
+
+#message:focus {
+  outline: none;
+  transform: scale(1.05);
+}
+
+.contactBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.contactBtn01{
+  font-size: 2rem;
+  padding: 1rem 5rem;
+  border: none;
+  border-radius: 4rem;
+  font-weight: bold;
+  transition: trancsform 1s ease;
+  background-color: #b4182d;
+  transition: transform 1s ease;
+  color: white;
+  width: 80%;
+  margin-top: 2rem;
+}
+
+.contactBtn01:hover, .footerBtn:hover {
+  transform: scale(1.1);
+  transition: transform 1s ease;
+}
+
+.footer {
+  display: flex;
+  padding:5rem 0rem;
+  gap: 4rem;
+}
+
+.footerBox {
+  flex: 1;
+  border-radius: 5rem;
+  padding: 2rem;
+  background-color:#003049;
+  color: white;
+  height: 45rem;
+}
+.footerBox h1 {
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 1.2;
+  padding-left: 3rem;
+}
+
+.footerLinks {
+  display: flex;
+  padding-left: 3rem;
+}
+
+.footerList {
+  flex: 1;
+}
+
+.footerList li {
+  list-style: none;
+  padding: 1rem 0;
+}
+
+.footerLinks a {
+  transition: color 0.3s ease;
+}
+.footerLinks a:hover {
+  color: #b4182d;
+  transition: color 0.3s ease;
+}
+
+.footerBox p{
+  padding-left: 3rem;
+  opacity:0.7;
+}
+
+.footerItem {
+  flex: 1;
+  height: 45rem;
+  border-radius: 5rem;
+  padding: 2rem;
+  background-color:black;
+  color: #b4182d;
+  overflow: hidden;
+  position: relative;
+}
+
+.footerItem h1 {
+  font-family: 'Pinkend', sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  padding-left: 3rem;
+  line-height: 1.2;
+  position: relative;
+  z-index: 2;
+}
+
+.footerBtn {
+  position:relative;
+  font-size: 2rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 4rem;
+  font-weight: bold;
+  transition: trancsform 1s ease;
+  background-color: #b4182d;
+  transition: transform 1s ease;
+  color: white;
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.footerImg {
+  width: 30rem;
+  position: absolute;
+  z-index: 1;
+  transform: translate(15%,-90%);
+}
