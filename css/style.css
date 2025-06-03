@@ -12,14 +12,15 @@ html {
   margin: auto;
 }
 
-body {
+body{
   font-family: "Ancizar Sans", sans-serif;
   width: 90%;
   margin: 0 auto;
   padding: 0;
   font-size: 2rem;
-  background-color: #f4f2f5;
+  background-color:#f4f2f5;
 }
+
 @media (max-width:1500px) {
   html {
     font-size: 62.5%;
@@ -190,11 +191,11 @@ body {
     flex-direction: column !important;
     align-items: center !important;
   }
-  .faqItem {
-  max-width: 350px;
+  .faqItem{
+    max-width: 350px;
   }
   .faqBox {
-  margin: 0 !important;
+    margin: 0 !important;
   }
   .contactBox {
     height:110rem !important;
@@ -404,9 +405,9 @@ a {
 
 .aboutTxt h1 {
   font-size: 5.5rem;
-    font-family: 'Pinkend', sans-serif;
-    line-height: 0.4;
-    color: #b4182d;
+  font-family: 'Pinkend', sans-serif;
+  line-height: 0.4;
+  color: #b4182d;
 }
 
 .about02 {
@@ -564,6 +565,7 @@ a {
 .reviewsDiv {
   margin: 4rem 0;
 }
+
 .reviewsBtn {
   background-color: #9cbabd;
   border: none;
@@ -617,7 +619,8 @@ a {
   text-align: center;
   box-sizing: border-box;
 }
-.reviewer {
+
+.reviewer{
   position: relative;
   top: 4rem;
 }
@@ -693,7 +696,7 @@ a {
   font-family: 'Pinkend', sans-serif;
   font-size: 5.5rem;
   color: #b4182d;
-  line-height: 0.5;
+  line-height:0.5;
 }
 
 .accTxt span {
@@ -727,6 +730,7 @@ a {
   font-family: 'Pinkend', sans-serif;
   font-weight: bold;
 }
+
 .accBtn {
   position: relative;
   top: 12rem;
@@ -927,7 +931,6 @@ a {
   font-size: 2.5rem;
   font-weight: bold;
 }
-
 
 .contactIcon {
   width: 5rem;
