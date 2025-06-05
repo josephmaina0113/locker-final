@@ -1,5 +1,5 @@
 # locker-final
-🎮 XP Locker - a gaming Gear Rental Website
+**🎮 XP Locker **- _a gaming Gear Rental Website_
 
 XP Locker is a stylish and responsive website for renting high-end gaming equipment. The site is built with semantic HTML5, CSS3, and light JavaScript and demonstrates thoughtful design, animation, and layout principles to create an engaging user experience.
 
