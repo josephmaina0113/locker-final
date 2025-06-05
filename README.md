@@ -26,8 +26,8 @@ XP Locker is fully responsive using CSS Flexbox, Grid, and media queries:
 
 | Breakpoint      | Logic                                                                       |
 |-----------------|-----------------------------------------------------------------------------|
-| `LG` (≥1024px)  | Grid layout with 3–4 gear cards per row, horizontal nav, and reviews layout |
-| `MD` (≥768px)   | Switches to 2-column grid for gear and accessories                          |
+| `LG` (≥1024px)  | Grid layout with 3 gear cards per row, horizontal nav, and reviews layout   |
+| `MD` (≥768px)   | Switches to 3-column grid for gear and accessories                          |
 | `SM` (<768px)   | Stacks content vertically for mobile readability                            |
 | Footer and navbar layouts also adjust for screen size                                         |
 
