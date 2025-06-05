@@ -47,4 +47,5 @@ XP Locker is fully responsive using CSS Flexbox, Grid, and media queries:
 - JavaScript – Minor enhancements
 - GitHub Pages – Hosting and deployment
 
-
+**Developed by**
+MAINA JOSEPH
